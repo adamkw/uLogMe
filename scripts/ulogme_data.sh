@@ -14,4 +14,6 @@ cd "$( dirname "${BASH_SOURCE[0]}" )"
 # sudo ./keyfreq.sh &
 ./keyfreq.sh &
 
-./logactivewin.sh
+./logactivewin.sh &
+
+./logdesktop.sh &
